@@ -11,6 +11,14 @@ export default defineConfig({
     vueDevTools(),
   ],
   resolve: {
+    fallback: {
+      buffer: false,
+      crypto: false,
+      events: false,
+      path: false,
+      //stream: require.resolve("stream-browserify"),
+      string_decoder: false,
+    },
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },

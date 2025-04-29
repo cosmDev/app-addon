@@ -1,0 +1,6 @@
+{
+  "chainID": "chaindev",
+  "chainPrefix": "dev",
+  "chainViewdenom": "STAKE",
+  "chainDenom": "stake"
+}
